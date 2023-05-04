@@ -28,13 +28,27 @@ validateForm():
 -The text content is set to "Please fill out all fields." using textContent.
 -The color of the text is set to red using the style.color.
 -he border color of the message container is also set to red using style.borderColor.
+-it uses if statement to compare password1El and password2El
+-If they match, the passwordsMatch variable is set to true, and the border color be green.
+-If they do not match, the passwordsMatch variable is set to false,and the border color be red.
 -does not take any parameter.
+-it returns void.
+
 
 processFormData(e):
 -this function is used to process form data. It is called when the user submits the form.
 -preventDefault() prevent the default form submission behavior.
 -then the function calls the validateForm() function.
 -it takes the event as parameter.
+-it returns void.
+
+
+storeformDate():
+-this function is used to store form data. 
+-the 'user' object contains the form field values from the name, phone, email, website, and password fields.
+-does not take any parameter.
+-it returns void.
+
 
 
 
