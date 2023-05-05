@@ -21,3 +21,20 @@ Styling:
  -Nunito font is used in this website and sans-serif font as default font.
  -Flex box is used for the layout.
 
+Functions:
+validateForm():
+-this function is used to validate a web form.
+-If the form is not valid, the function displays an error message to the user.
+-The text content is set to "Please fill out all fields." using textContent.
+-The color of the text is set to red using the style.color.
+-he border color of the message container is also set to red using style.borderColor.
+-does not take any parameter.
+
+processFormData(e):
+-this function is used to process form data. It is called when the user submits the form.
+-preventDefault() prevent the default form submission behavior.
+-then the function calls the validateForm() function.
+-it takes the event as parameter.
+
+
+
